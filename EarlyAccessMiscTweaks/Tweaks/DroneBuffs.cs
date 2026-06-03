@@ -44,8 +44,8 @@ namespace EarlyAccessMiscTweaks.Tweaks
                 case "Prefabs/CharacterBodies/Turret1Body":
                     body.baseMaxHealth = 200f;
                     body.levelMaxHealth = 60f;
-                    body.baseRegen = 20f * 0.6f;
-                    body.levelRegen = 4f * 0.6f;
+                    body.baseRegen = 20f * 0.6f * (1f/2.5f);
+                    body.levelRegen = 4f * 0.6f * (1f / 2.5f);
                     body.baseDamage = 18f;
                     body.levelDamage = 3.6f;
                     body.baseArmor = 30f;
@@ -54,8 +54,8 @@ namespace EarlyAccessMiscTweaks.Tweaks
                 case "Prefabs/CharacterBodies/Drone2Body":
                     body.baseMaxHealth = 150f;
                     body.levelMaxHealth = 45f;
-                    body.baseRegen = 5f * 0.6f;
-                    body.levelRegen = 1f * 0.6f;
+                    body.baseRegen = 5f * 0.6f * (1f / 2.5f);
+                    body.levelRegen = 1f * 0.6f * (1f / 2.5f);
                     body.baseDamage = 10f;
                     body.levelDamage = 2f;
                     body.moveSpeed = 17f;
@@ -64,8 +64,8 @@ namespace EarlyAccessMiscTweaks.Tweaks
                 case "Prefabs/CharacterBodies/MissileDroneBody":
                     body.baseMaxHealth = 225f;
                     body.levelMaxHealth = 68f;
-                    body.baseRegen = 7.5f * 0.6f;
-                    body.levelRegen = 1.5f * 0.6f;
+                    body.baseRegen = 7.5f * 0.6f * (1f / 2.5f);
+                    body.levelRegen = 1.5f * 0.6f * (1f / 2.5f);
                     body.baseDamage = 14f;
                     body.levelDamage = 2.8f;
                     body.moveSpeed = 12f;
@@ -75,8 +75,8 @@ namespace EarlyAccessMiscTweaks.Tweaks
                 case "Prefabs/CharacterBodies/BackupDroneOldBody":
                     body.baseMaxHealth = 225f;
                     body.levelMaxHealth = 68f;
-                    body.baseRegen = 7.5f * 0.6f;
-                    body.levelRegen = 1.5f * 0.6f;
+                    body.baseRegen = 7.5f * 0.6f * (1f / 2.5f);
+                    body.levelRegen = 1.5f * 0.6f * (1f / 2.5f);
                     body.baseDamage = 7f;
                     body.levelDamage = 1.4f;
                     body.moveSpeed = 20f;
@@ -85,8 +85,8 @@ namespace EarlyAccessMiscTweaks.Tweaks
                 case "Prefabs/CharacterBodies/MegaDroneBody":
                     body.baseMaxHealth = 1200f;
                     body.levelMaxHealth = 360f;
-                    body.baseRegen = 30f * 0.6f;
-                    body.levelRegen = 8f * 0.6f;
+                    body.baseRegen = 30f * 0.6f * (1f / 2.5f);
+                    body.levelRegen = 8f * 0.6f * (1f / 2.5f);
                     body.baseArmor = 50f;
                     body.baseMoveSpeed = 20f;
                     body.baseDamage = 14f;

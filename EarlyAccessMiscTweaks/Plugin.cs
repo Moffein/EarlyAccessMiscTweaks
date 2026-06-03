@@ -9,7 +9,7 @@ using System.Security;
 namespace EarlyAccessMiscTweaks
 {
     [BepInDependency("com.bepis.r2api")]
-    [BepInPlugin("com.Moffein.EarlyAccessMiscTweaks", "EarlyAccessMiscTweaks", "1.0.0")]
+    [BepInPlugin("com.Moffein.EarlyAccessMiscTweaks", "EarlyAccessMiscTweaks", "1.1.0")]
     public class EarlyAccessMiscTweaksPlugin : BaseUnityPlugin
     {
         private void Awake()
